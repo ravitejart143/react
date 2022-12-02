@@ -18,15 +18,14 @@ export default App*/
 
 import FuncPropExample from './FuncPropExample'
 import StateExample from './StateExample'
+import Events from './Events'
 
 function App(){
     return(
         <div>
            
-            <h1>This is about props example</h1>
-            <FuncPropExample framework="ravi" year="25"/>
-            <FuncPropExample framework="ravi" year="25"/>
-            <StateExample/>
+            <h1>This is about Events example</h1>
+            <Events/>
             
         </div>
         )
